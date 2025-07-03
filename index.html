@@ -473,23 +473,7 @@
 
     <footer class="footer">
         <div class="container container-footer">
-          <div class="form-container">
-<p class="form-text">Subscribe</p>
-<form class="form">
-  <label class="label-form">
-  <input name="email_address" type="email" placeholder="E-mail" class="input-form" />
-  </label>
- <button type="submit" class="button-form">Subscribe
- <svg
-                  width="24"
-                  height="24"
-                  class="svg-modal">
-                <use href="./images/icons.svg#frame"></use>
-                </svg>
 
- </button>
-</form>
-          </div>
           <div class=logo-container>
        <a href="./index.html" class="logo-footer">
       web<span class="footer-span">Studio</span>
@@ -558,18 +542,36 @@
 </li>
 </ul>
      </div>  
+              <div class="Subscribe-container">
+<p class="form-text">Subscribe</p>
+<form class="form-subscribe">
+  <label class="label-form">
+  <input  type="email" name="email"  placeholder="E-mail" class="input-subscribe" />
+  </label>
+ <button type="submit" class="button-subscribe">Subscribe
+ <svg
+                  width="24"
+                  height="24"
+                  class="svg-subscribe">
+                <use href="./images/icons.svg#frame"></use>
+                </svg>
+
+ </button>
+</form>
+          </div>
       </div>
+      
     </footer>
 
 
     <div class="overlay">
   <div class="modal">
-    <button type="button" class="close-btn-modal"aria-label="Close modal">
+    <button type="button" class="close-btn-modal" aria-label="Close modal">
            <svg
                   width="8"
                   height="8"
                   class="svg-person">
-                <use href="./images/icons.svg#person"></use>
+                <use href="./images/icons.svg#close"></use>
                 </svg>
     </button>
 
@@ -625,7 +627,7 @@
               </div>
 
 
-                        <div class="modal-conteiner">
+     <div class="modal-conteiner">
   <label for="user-comment" class="label-modal">Comment</label>
   <textarea
     id="user-comment"
@@ -633,8 +635,32 @@
     placeholder="Text input"
     class="textarea-comment"
   ></textarea>
+<div class="privacy-container">
+<input
+    id="user-privacy"
+    type="checkbox"
+    value="true"
+    name="user-privacy"
+    class="privacy-checkbox visually-hidden-checkbox"
+  />
+  <label for="user-privacy" class="privacy-label" style="
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted, #8e8f99);
+  ">
+    I accept the terms and conditions of the
+    <span class="privacy-checkbox-span">
+      <svg
+        width="10"
+        height="8">
+      
+      
+      </svg>
 </div>
- <button type="submit" class="button-form">Submit</button>
+
+</div>
+ <button type="submit" class="button-form-Submit">Submit</button>
 </form>
   </div>
 </div>

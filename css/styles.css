@@ -433,12 +433,20 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #ffffff; 
 }
-.form{
+.form-subscribe{
   display: flex;
   gap: 24px;
 }
+.Subscribe-container{width:453px
+ ;
 
-.input-form{
+}
+.svg-subscribe{
+margin-left: 16px;
+
+
+}
+.input-subscribe{
 width: 264px;
 height: 40px;
 border: 1px solid #ffffff;
@@ -453,7 +461,10 @@ color: #ffffff;
 }
 input::placeholder {color: #ffffff; }
 
-.button-form{
+
+
+
+.button-subscribe{
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -469,13 +480,7 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
-
 }
-.svg-form{
-margin-left: 16px;
-}
-
-
 
 
 .logo-container{margin-right: 120px;
@@ -655,4 +660,55 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .textarea-comment:focus {
   border-color: #4D5AE5;
+}
+.privacy-container{
+margin-bottom: 24px;
+
+
+}
+.visually-hidden-checkbox{
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.privacy-label{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color:#8e8f99;
+
+}
+.privacy-checkbox-span{
+      width: 16px;
+      height: 16px;
+      border: 1px solid rgba(46, 47, 66, 0.4);
+      border-radius: 2px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      fill: transparent;
+      margin-left: 8px; 
+      vertical-align: middle;}
+
+.button-form-Submit{
+display: block;
+min-width: 169px;
+height: 56px;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff ;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
