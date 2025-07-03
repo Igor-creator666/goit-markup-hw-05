@@ -636,23 +636,26 @@
     name="user-comment"
     placeholder="Text input"
     class="textarea-comment"
+     rows="5"
   ></textarea>
 
   <!-- ← пятий дів -->
 
 <div class="privacy-container">
 <input
-class="visually-hidden-checkbox"
+class="checkbox  visually-hidden"
 type="checkbox"
     id="user-privacy"
     name="user-privacy"
     value="true"
+    required
   />
   <label class="privacy-label" for="user-privacy">
 <span class="privacy-checkbox-span">
  <svg
         width="10"
-        height="8">
+        height="8"
+        aria-hidden="true" focusable="false">
       <use href="./images/icons.svg#check"></use>
 </svg>
        </span>
@@ -661,7 +664,7 @@ type="checkbox"
        </label>
 </div>
 </div>
- <button type="submit" class="button-form-Submit">Submit</button>
+ <button type="submit" class="button-form-Submit">Send</button>
 </form>
   </div>
 </div>
