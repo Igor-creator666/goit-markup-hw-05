@@ -468,12 +468,11 @@
     </main>
 
   
-
+<!-- ← Футер  -->
 
 
     <footer class="footer">
         <div class="container container-footer">
-
           <div class=logo-container>
        <a href="./index.html" class="logo-footer">
       web<span class="footer-span">Studio</span>
@@ -542,7 +541,7 @@
 </li>
 </ul>
      </div>  
-              <div class="Subscribe-container">
+              <div class="subscribe-container">
 <p class="form-text">Subscribe</p>
 <form class="form-subscribe">
   <label class="label-form">
@@ -562,7 +561,7 @@
       </div>
       
     </footer>
-
+<!-- ← модальне окно -->
 
     <div class="overlay">
   <div class="modal">
@@ -630,7 +629,7 @@
               </div>
 <!-- ← четвертий дів -->
 
-     <div class="сomment-conteiner">
+     <div class="comment-conteiner">
   <label for="user-comment" class="label-modal">Comment</label>
   <textarea
     id="user-comment"
@@ -643,22 +642,22 @@
 
 <div class="privacy-container">
 <input
+class="visually-hidden-checkbox"
+type="checkbox"
     id="user-privacy"
-    type="checkbox"
-    value="true"
     name="user-privacy"
-    class="privacy-checkbox visually-hidden-checkbox"
+    value="true"
   />
-  <label for="user-privacy" class="privacy-label">
-    I accept the terms and conditions of the
-    <span class="privacy-checkbox-span">
-      <svg
+  <label class="privacy-label" for="user-privacy">
+<span class="privacy-checkbox-span">
+ <svg
         width="10"
         height="8">
-      
-      
-      </svg>
+      <use href="./images/icons.svg#check"></use>
+</svg>
        </span>
+    I accept the terms and conditions of the
+      <a class="privacy-link" href="#">Privacy Policy</a>
        </label>
 </div>
 </div>

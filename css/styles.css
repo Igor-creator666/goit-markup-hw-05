@@ -437,7 +437,7 @@ color: #ffffff;
   display: flex;
   gap: 24px;
 }
-.Subscribe-container{width:453px
+.subscribe-container{width:453px
  ;
 
 }
@@ -642,7 +642,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .input-name:focus + .svg-phone {
   fill: #4D5AE5;
 }
-.сomment-conteiner{margin-bottom: 16px;}
+.comment-conteiner {margin-bottom: 16px;}
 
 .textarea-comment {
   width: 100%;
