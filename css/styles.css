@@ -689,7 +689,10 @@ margin-bottom: 24px;
 .checkbox:checked + .privacy-label .privacy-checkbox-span svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+.checkbox:checked + .privacy-label .privacy-checkbox-span svg path {
+    stroke: var(--checkbox-fill);
+    fill: var(--checkbox-fill);
+  }
 .visually-hidden-checkbox{
 position: absolute;
   width: 1px;
