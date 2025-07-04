@@ -677,11 +677,11 @@ margin-bottom: 24px;
    .checkbox:checked + .privacy-label .privacy-checkbox-span {
     background-color: var(--brand-color);
     border: none;
-    fill: var(--checkbox-fill);
+    fill: #f4f4fd;
   }
   
 .checkbox:checked + .privacy-label .privacy-checkbox-span svg {
-    fill: var(--checkbox-fill);
+    fill: #f4f4fd;;
   }
   
 .checkbox:checked + .privacy-label .privacy-checkbox-span svg path {
