@@ -422,8 +422,13 @@ color: #434455;
 
 
 .container-footer{
- display: flex; 
-align-items: baseline;
+ display: flex;
+  justify-content: center;    
+  align-items: flex-start;     
+  gap: 24px;                
+  flex-wrap: nowrap;
+  max-width: 100%;
+  overflow: hidden; 
 }
 .form-text{
   margin-bottom: 16px;
@@ -677,18 +682,12 @@ margin-bottom: 24px;
 
 
    .checkbox:checked + .privacy-label .privacy-checkbox-span {
-    background-color: #404bbf;;
-    border: none;
-    fill: #f4f4fd;
+    background-color: #404bbf;
+  border: none;
   }
   
 .checkbox:checked + .privacy-label .privacy-checkbox-span svg {
-    fill: #f4f4fd;;
-  }
-  
-.checkbox:checked + .privacy-label .privacy-checkbox-span svg path {
-    stroke: var(--checkbox-fill);
-    fill: var(--checkbox-fill);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .visually-hidden-checkbox{
@@ -722,7 +721,8 @@ color:#8e8f99;
       margin-right: 8px; 
       vertical-align: middle;}
 
-.button-form-Submit{
+.button-form-submit{
+  margin: 0 auto;
 display: block;
 min-width: 169px;
 height: 56px;
